@@ -8,3 +8,4 @@ jobs:
     steps:
       - name: Hello World
         run: echo "Hello World"
+        run: date "+%Y年%m月%d日_%H時%M分%S秒"
